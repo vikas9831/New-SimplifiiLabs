@@ -136,6 +136,9 @@ This project uses the following dependencies:
 
 ![Screenshot 2024-09-15 170244](https://github.com/user-attachments/assets/6b56f4f7-670e-4d7f-832d-6b8f43549fde)
 
+### for Blurry Image
+
+
 
 ## Contributing
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
