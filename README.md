@@ -87,6 +87,8 @@ Before allowing the image to be uploaded, the app automatically checks if the se
 - When an image is selected or dropped into the upload area, the app uses a FileReader to check if the image is readable.
 - If the image passes the check, a success message (✅ File is readable) is shown, and the upload button becomes active.
 - If the image is not readable, an error message (❌ File is not readable) is displayed, preventing the user from proceeding with the upload.
+- The app checks for image blurriness, and if the image is determined to be very blurry, it displays a message indicating that the image is blurry (❌ This image appears blurry or low-quality. Try a different one).
+- In cases where some text is readable in a blurry image, the app will still identify the image as readable, allowing for a more nuanced evaluation of image quality.
 
 This feature helps in detecting corrupted or unsupported files early, providing a better user experience.
 
