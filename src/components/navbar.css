@@ -1,0 +1,24 @@
+body.light-theme {
+    background-color: white;
+    color: #2D2C2C;
+  }
+  
+  body.dark-theme {
+    background-color: #2D2C2C;
+    color: white;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color:blue;
+    color: white;
+  }
+  
+  .navbar div {
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+
+  
